@@ -1,0 +1,83 @@
+/* White background for full page */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff; /* Pure white background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Light pink form container */
+.container {
+  background-color: #ffe4ec; /* Soft light pink */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Form heading */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields, dropdowns, textareas */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+/* Radio and checkbox groups */
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+button {
+  width: 48%;
+  padding: 12px;
+  background-color: #ff6fae; /* Vibrant pink button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 10px 1%;
+}
+
+button:hover {
+  background-color: #e85c9c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
